@@ -57,7 +57,7 @@ function drawLine(){
 
     if (az <= 5){
     fill (161,7,2, 50);
-    ellipse(x,y,markerSize,markerSize);
+    ellipse(x,y,markerSize+50,markerSize+50);
   }
    else if (az > 5 && az<= 6){
   fill (161,7,2, 60);
